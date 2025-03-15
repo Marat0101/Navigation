@@ -11,7 +11,7 @@ function HomeScreen({ navigation }) {
       <Text style={styles.title}>Домашняя страница</Text>
       <Button
         title="К деталям"
-        onPress={() => navigation.navigate('Details', { message: 'Добро пожаловать домой!' })}
+        onPress={() => navigation.navigate('Details', { message: 'Детали' })}
       />
     </View>
   );
